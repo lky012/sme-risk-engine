@@ -6,11 +6,12 @@ VertexRisk is an MVP Loan Officer Dashboard and serverless credit risk scoring e
 This repository serves as a **Bring Your Own Key (BYOK)** portfolio demonstration. It is 100% safe to deploy publicly.
 
 ## Key Features
-- **Synthetic Data Engine:** Pre-loaded with 3 fictional SME personas (Low, Medium, and High Risk) featuring 12 months of generated financial data and social media reviews.
-- **Serverless AI Analysis:** Integrates with the Google Gemini API to parse customer reviews and extract intelligent "Sentiment Scores" and prioritized "Operational Red Flags."
-- **Custom Risk Scoring Algorithm:** A weighted engine (60% Financials, 40% Digital Sentiment) translating raw data into an actionable Alternative Risk Grade (A to D) with systemic recommendations.
-- **Interactive UI Dashboard:** Built with Next.js, React, Tailwind CSS, and Recharts for a clean, bank-grade Loan Officer experience.
-- **BYOK Architecture:** No backend credentials required for public deployments. Users provide their own Google Gemini API key directly via the dashboard to execute live LLM inferences safely.
+- **Enterprise Bloomberg-Style Dashboard:** A data-dense, dark-themed Command Center UI tailored for high-end commercial banking environments, built with Next.js and Tailwind.
+- **API Integration Metadata:** Simulates real-world data ingestion pipelines by presenting mock live status metadata from Accounting/ERP platforms (e.g., Xero, QuickBooks) and Payment Gateways (e.g., Stripe, Adyen).
+- **Synthetic Hong Kong Data Engine:** Pre-loaded with 3 fictional, localized SME personas featuring 12 months of derived financial cashflow alongside reviews from OpenRice and Instagram.
+- **Serverless NLP Analysis:** Integrates with the Google Gemini API to parse unstructured "Raw Data Ingestion Streams" and extract actionable "NLP Risk Vectors" (Sentiment Scores, Key Red Flags).
+- **Custom Basel-Style Risk Algebra:** A weighted calculation engine (Fin Score vs. Alt Score) translating diverse data inputs into an automatic Corporate Credit Risk Grade (A to D) with approval recommendations.
+- **BYOK (Bring Your Own Key) Architecture:** Configured for 100% safe public demo deployment. No backend credentials required—recruiters and users provide their own session API key directly via the dashboard to execute live LLM inferences safely.
 
 ## Tech Stack
 - Frontend: Next.js (App Router), React, TypeScript, Tailwind CSS
